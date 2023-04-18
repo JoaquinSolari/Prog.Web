@@ -16,7 +16,7 @@ header h1{
     font-size: 2rem;
     
 }
-#perfil {
+#img {
    
     /* max-width: 15rem; */
     
@@ -33,7 +33,7 @@ header h1{
     /* flex-direction: column; */
     /* min-height: 1rem; */
     /* margin: 0 auto; */
- 
+    
 }
 
 body {
@@ -42,6 +42,8 @@ body {
     background-color: rgb(255, 255, 255);
    
 }
+
+
 
 
 
@@ -89,13 +91,13 @@ div p {
 
 section ul, ol {
     margin-top: 0.1rem;
-    list-style-type: symbols('-');
-    /* list-style-position: outside; */
-   /* text-justify: left; */
+    /* list-style-type: symbols('-');
+    list-style-position: outside;
+   text-justify: left; */
   /* margin: 0 auto;
   margin-bottom: 0.5rem; */
    /* display: flex;
-  flex-direction: column; */
+  flex-direction: row; */
 
 }
 
@@ -106,11 +108,36 @@ section ul, ol {
     
 } 
 
-div .edad{
-    
+#form {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
+
+
+
+/* div span:hover{
+
+    transform: scale(1.01);
+} */
+
+input[type="text"], textarea {
+    width: 100%;
+    
+    max-width: 100%;
+    border-radius: 5px;
+   /* display: inline; */
+    margin: 0px;
+
+  }
+  
+  
 
 div{
     box-shadow: 0.01rem 0.01rem 1rem   #3b3b3b69 ;
     
 }
+
+
