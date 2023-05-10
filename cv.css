@@ -36,11 +36,19 @@ header h1{
     
 }
 
+.lorem {
+    margin: 1rem;
+    
+    
+}
+
 body {
  font-size: 16px;
     margin: 0;
     background-color: rgb(255, 255, 255);
+    background: linear-gradient( 45grad, rgba(0, 126, 252, 0.08) , rgba(255, 0, 132, 0) );
    
+    
 }
 
 
@@ -106,7 +114,7 @@ section ul, ol {
     color: white;
     /* display: flex; */
     
-} 
+
 
 #form {
 
@@ -114,6 +122,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+
 }
 
 
